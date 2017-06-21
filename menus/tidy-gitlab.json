@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle tidy-gitlab",
+        "command": "tidy-gitlab:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "tidy-gitlab",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "tidy-gitlab:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
